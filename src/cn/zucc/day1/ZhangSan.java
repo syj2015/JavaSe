@@ -18,7 +18,7 @@ public class ZhangSan {
 		int matlabScore=sc.nextInt();
 		int cha=Math.abs(javaScore-sqlScore);
 		System.out.println("JAVA和SQL的分数差："+cha);
-		int pjf=javaScore/3+sqlScore/3+matlabScore/3;
+		int pjf=javaScore/3+sqlScore/3+matlabScore/3;	
 		System.out.println("平均分："+pjf);
 		
 
