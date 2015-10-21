@@ -246,7 +246,33 @@ public class Demo {
 			System.out.println(i+"*"+j+"="+i*j);
 		}
 */	
-	
+	/*
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 循环
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 数组
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
 /*		int a[]={8,4,2,1,23,344,12};
 		for(int i=0;i<a.length;i++){
 			System.out.print(a[i]+"\t");
@@ -355,7 +381,7 @@ public class Demo {
 		System.out.print("\n");
 */
 		
-		String[] xv=new String[]{"s","f","j","y",
+/*		String[] xv=new String[]{"s","f","j","y",
 				"a","x","r","h"};
 		System.out.print("原序：\t");
 		for(int i=0;i<xv.length;i++){
@@ -390,9 +416,35 @@ public class Demo {
 		for(int i=0;i<xxx.length;i++){
 			System.out.print(xxx[i]+"\t");
 		}
+*/		
 		
-		
-		
+		/*
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 数组
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 */
 		
 		
 		
