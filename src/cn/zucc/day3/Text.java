@@ -118,20 +118,20 @@ public class Text {
 /*		例VipManager  Vip
  * 
  * 		Scanner sc = new Scanner(System.in);
-		VipManager vm = new VipManager();
-		String flag;
+		VipManager vm = new VipManager();       //循环外
+		String flag;                            //判断
 		do{
-			Vip vip=new Vip();
+			Vip vip=new Vip();                  //循环内
 			System.out.println("输入会员编号：");
-			String num=sc.next();
+			String num=sc.next();				//输入num
 			System.out.println("输入会员积分：");
-			int score=sc.nextInt();
+			int score=sc.nextInt();				//输入score
 			vip.num=num;
-			vip.score=score;
-			vm.addVip(vip);
+			vip.score=score;					//赋值给vip
+			vm.addVip(vip);						//把vip值给addVip
 			System.out.println("是否继续输入？（y/n）");
 			flag=sc.next();
-		}while(flag.equals("y"));
+		}while(flag.equals("y"));				//输入y时继续
 		System.out.println("***会员列表***");
 		vm.showVips();
 */	
@@ -206,28 +206,7 @@ public class Text {
 		}while(flag.equals("y"));
 */	
 	
-	
-		Scanner sc = new Scanner(System.in);
-		VipManager vm = new VipManager();
-		String flag;
-		do{
-			Vip vip=new Vip();
-			System.out.println("输入会员编号：");
-			String num=sc.next();
-			System.out.println("输入会员积分：");
-			int score=sc.nextInt();
-			vip.num=num;
-			vip.score=score;
-			vm.addVip(vip);
-			System.out.println("是否继续输入？（y/n）");
-			flag=sc.next();
-		}while(flag.equals("y"));
-		System.out.println("***会员列表***");
-		vm.showVips();
-	
-	
-	
-	
+
 	
 	
 	
