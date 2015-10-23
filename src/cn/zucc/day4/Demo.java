@@ -91,62 +91,55 @@ public class Demo {
 		 * System.out.print(str);
 		 */
 
+		/*
+		 * Scanner sc = new Scanner(System.in); String n; String m; String m1;
+		 * Register r = new Register(); int i = 0; do {
+		 * System.out.println("请输入账号"); n = sc.next();
+		 * System.out.println("请输入密码"); m = sc.next();
+		 * System.out.println("请再输入密码"); m1 = sc.next(); r.verify(n, m, m1, i);
+		 * } while (i == 1); // Goods g = new Goods(); g.dfg(); int v; int b;
+		 * System.out.println("bianhao"); v=sc.nextInt();
+		 * System.out.println("shumu"); b=sc.nextInt(); g.qwe(v,b);
+		 */
 
-/*		Scanner sc = new Scanner(System.in);
-		String n;
-		String m;
-		String m1;
-		Register r = new Register();
-		int i = 0;
-		do {
-			System.out.println("请输入账号");
-			n = sc.next();
-			System.out.println("请输入密码");
-			m = sc.next();
-			System.out.println("请再输入密码");
-			m1 = sc.next();
-			r.verify(n, m, m1, i);
-		} while (i == 1);
-		//
-		Goods g = new Goods();
-		g.dfg();
-		int v;
-		int b;
-		System.out.println("bianhao");
-		v=sc.nextInt();
-		System.out.println("shumu");
-		b=sc.nextInt();
-		g.qwe(v,b);
-*/		
-		
-		
-		Scanner sc = new Scanner(System.in);
-		Topic t = new Topic(sc.next(),sc.next(), sc.next(), sc.nextInt());
-		t.getInfo();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		/*
+		 * Scanner sc = new Scanner(System.in); Topic t = new
+		 * Topic(sc.next(),sc.next(), sc.next(), sc.nextInt()); t.getInfo();
+		 */
+
+		/*
+		 * Scanner sc = new Scanner(System.in); User u = new
+		 * User(sc.next(),sc.nextInt()); u.getUserInfo();
+		 */
+
+		User u1 = new User("张三", 1);
+		User u2 = new User("李三", 1);
+		User u3 = new User("王武", 1);
+		User u4 = new User("小燕", 2);
+		User u5 = new User("小红", 2);
+		User u6 = new User("小翠", 2);
+		UserDaoImpl ud = new UserDaoImpl();
+		ud.addUser(u1);
+		ud.addUser(u2);
+		ud.addUser(u3);
+		ud.addUser(u6);
+		ud.addUser(u5);
+		ud.addUser(u4);
+		System.out.println("-------输出所有的用户信息--------");//
+		for (int i = 0; i < ud.au.length; i++) {
+			if (ud.au[i] != null) {
+				
+				ud.au[i].getUserInfo();
+			}
+		}
+/*
+		System.out.println("-------输出查找的用户信息--------");
+		ud.findUser("小燕").getUserInfo();
+		System.out.println("-------输出更新的用户信息--------");
+		User u7 = new User("王武", 2);
+		ud.updateUser(u7);
+		ud.findUser("王武").getUserInfo();
+*/
 	}
 
 }

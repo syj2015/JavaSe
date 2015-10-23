@@ -1,6 +1,6 @@
 package cn.zucc.day4;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Register {
 
